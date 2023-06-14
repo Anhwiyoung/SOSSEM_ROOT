@@ -44,9 +44,10 @@ section > div{
     float: left;
     margin: 20px;
 }
-section > h1{
+/* section > h1{
     margin: 10px 0;
-}
+    } */
+
 section > div.img{
     width: 300px;
     height: 200px;    
@@ -55,3 +56,56 @@ section#info > div.img{
     background-image: url(../image/cafe-2.jpg);
     background-size: cover;
 }
+section#navi{
+    background-color: rgb(215, 219, 219);
+}
+section#navi > div.img{
+    background-image: url(../image/cafe-3.jpg);
+    background-size: cover;
+}
+section#choice > div.img{
+   
+    background-image: url(../image/small.png);
+    width: 300px;
+    height: 200px;
+    float:right;  
+    border-radius: 50%;
+}
+section#choice > .text{
+   width: 300px;
+   height: 200px;  
+ 
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;   
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+h3{
+    margin: 10px;
+}
+/* .move{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: aquamarine;
+     }
+ .move :hover{
+    background-color: brown;
+ } */
+ a.btn{
+    text-decoration: none;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50px;
+ }
